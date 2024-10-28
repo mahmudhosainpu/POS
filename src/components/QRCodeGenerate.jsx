@@ -77,7 +77,7 @@ export default function QRCodeGenerate() {
   return (
     <div>
       <Container>
-        {/* Input Fields */}
+
         <div className="flex items-center justify-center bg-gray-200 p-8 rounded-md space-x-4">
           <div className="flex flex-col w-full">
             <label htmlFor="productName" className="text-sm mb-1">Product Name</label>
@@ -137,7 +137,7 @@ export default function QRCodeGenerate() {
           </button>
         </div>
 
-        {/* Product Table */}
+
         <div className="pt-20">
           <table className="min-w-full divide-y divide-gray-300 ">
             <thead>
@@ -175,7 +175,7 @@ export default function QRCodeGenerate() {
           </table>
         </div>
 
-        {/* Edit Modal */}
+
         {showEdit && (
           <EditModal
             product={products[selectedProductIndex]}
